@@ -31,7 +31,7 @@ const HomepageArchive = ({ state, libraries }) => {
           fontSize={{ base: "4xl", md: "6xl" }}
           color="accent.400"
         >
-          Latest Posts
+          Latest Projects
         </Heading>
 
         <SimpleGrid
