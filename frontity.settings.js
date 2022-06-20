@@ -21,7 +21,7 @@ const settings = {
           // the top-level navigation labels and links
           menu: [
             ["Frontity","/category/frontity"],
-            ["Wordpress","/category/wordpress"]
+            ["Wordpress","/category/wordpress"],
             ["React","/category/react"],
             ["Javascript", "/category/javascript"],
             ["Python", "/category/python"],
