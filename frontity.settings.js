@@ -20,6 +20,7 @@ const settings = {
           showSocialLinks: true,
           // the top-level navigation labels and links
           menu: [
+            ["Frontity","/category/frontity"],
             ["React","/category/react"],
             ["Javascript", "/category/javascript"],
             ["Python", "/category/python"],
