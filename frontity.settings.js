@@ -20,7 +20,7 @@ const settings = {
           showSocialLinks: true,
           // the top-level navigation labels and links
           menu: [
-            ["React","category/react"],
+            ["React","/category/react"],
             ["Javascript", "/category/javascript"],
             ["Python", "/category/python"],
             ["Java", "/category/java"],
