@@ -1,13 +1,13 @@
 const settings = {
-  "name": "personal-website-luke-mac",
-  "state": {
-    "frontity": {
-      "url": "https://techyschmecky.wordpress.com",
-      "title": "Luke MacLean's Portfolio",
-      "description": "Luke MacLean's Portfolio"
-    }
+  name: "personal-website-luke-mac",
+  state: {
+    frontity: {
+      url: "https://techyschmecky.wordpress.com",
+      title: "Luke MacLean's Portfolio",
+      description: "Luke MacLean's Portfolio",
+    },
   },
-  "packages": [
+  packages: [
     {
       name: "frontity-chakra-theme",
       state: {
@@ -20,9 +20,8 @@ const settings = {
           showSocialLinks: true,
           // the top-level navigation labels and links
           menu: [
-            ["Frontity","/category/frontity"],
-            ["Wordpress","/category/wordpress"],
-            ["React","/category/react"],
+            ["Frontity", "/category/frontity"],
+            ["React", "/category/react"],
             ["Javascript", "/category/javascript"],
             ["Python", "/category/python"],
             ["Java", "/category/java"],
@@ -64,12 +63,12 @@ const settings = {
       },
     },
     {
-      "name": "@frontity/wp-source",
-      "state": {
-        "source": {
-          "url": "https://techyschmecky.wordpress.com"
-        }
-      }
+      name: "@frontity/wp-source",
+      state: {
+        source: {
+          url: "https://techyschmecky.wordpress.com",
+        },
+      },
     },
     {
       name: "@frontity/google-tag-manager-analytics",
@@ -80,8 +79,8 @@ const settings = {
       },
     },
     "@frontity/tiny-router",
-    "@frontity/html2react"
-  ]
+    "@frontity/html2react",
+  ],
 };
 
 export default settings;
